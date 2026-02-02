@@ -1,0 +1,46 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+.a{
+  border: 2px solid orange;
+  padding: 20px 30px;
+  /* margin: 40px; */
+
+}
+
+/* body{
+  border: 2px solid ;
+} */
+
+.container{
+  height: 400px;
+  width: 400px;
+  border:2px solid black;
+}
+p{
+  background-color: cyan;
+  color:purple;
+  font-size: 10px;
+}
+.static{
+  position: static;
+}
+.sticky{
+  position: sticky;
+  top: 20px;
+}
+.Relative{
+position: relative;
+}
+.absolute{
+position: absolute;
+right: 100px;
+bottom: 10px;
+}
+.fixed{
+  position: fixed;
+  bottom: 10px;
+  right: 40px
+}
